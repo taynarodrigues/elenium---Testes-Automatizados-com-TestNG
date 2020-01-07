@@ -1,0 +1,15 @@
+<suite name="Teste de suítes di TestNG">
+	<test name="Página de cadastro de usuários">
+		<classes>
+			<class name="br.com.treinaweb.selenium.tests.CadastroUsuarioTest">
+				<methods>
+					<include name="verficarusuarioPreenchidoTest"></include>
+					<include name="verificarNomeNaoPreenchidoTest" ></include>]
+					<include name="verifcarEmailsDiferentesTest" ></include>
+				</methods>
+			</class>
+			<class name="br.com.treinaweb.selenium.tests.UploadTest">
+			</class>
+		</classes>
+	</test>
+</suite>
